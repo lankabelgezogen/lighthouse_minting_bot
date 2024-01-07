@@ -27,8 +27,11 @@ Currently doesn't support mass-task or multi-wallet (to be added).
 
 ## Configuration
 LINE 27 => Change the path to your local lighthouse installation. (Can be found with $where lighthouse)
+
 LINE 61 => Change the amount of nfts to mint per address 
+
 LINE 80 => add your wallet mnemonic phrase
+
 LINE 82 => add your recipient addresses
 
 Edit the `config.json` file to set up the bot:
