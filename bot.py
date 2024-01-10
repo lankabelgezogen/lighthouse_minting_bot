@@ -53,7 +53,7 @@ class LighthouseMintingBot:
         """Mint NFTs using a specific wallet."""
         for _ in range(num_nfts):
             # Mint command
-            mint_command = ['C:\\Program Files\\nodejs\\lighthouse.cmd', 'mint', self.config['collection_address'], self.config['group_name'], '--gas-price', '0.005'] # change gas price
+            mint_command = ['C:\\Program Files\\nodejs\\lighthouse.cmd', 'mint', self.config['collection_address'], self.config['group_name']] # will always cost 1.5sei
             output = self.run_lighthouse_command(mint_command, input_text=recipient_address)
             logging.info(f"Minting output: {output}")
 
