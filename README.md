@@ -3,11 +3,7 @@
 
 ## Introduction
 This NFT minting bot is designed to automate the process of minting NFTs on the Sei blockchain using the Lighthouse CLI.
-Currently doesn't support mass-task or multi-wallet (to be added).
 
-Old version - lighthouse gets 1.5sei for every mint!
-
-For functional multi-wallet bot, hit me up on Discord: lankabelgezogen
 ## Features
 - Automated minting of NFTs on the Sei blockchain.
 - Customizable settings through `config.json`.
